@@ -1,0 +1,17 @@
+#carouselExampleCaptions {
+   margin: 10px ;
+   max-height: 20%;
+   width: auto;
+   border-width: 10px;
+
+}
+
+.carousel-inner img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-control-next {
+    color: #000;
+}
