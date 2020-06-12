@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { CategoriaComponent } from './components/categoria/categoria.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PrincipalComponent } from './components/principal/principal.component';
     HeaderComponent,
     FooterComponent,
     SliderComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    CategoriaComponent
   ],
   imports: [
     CommonModule,
