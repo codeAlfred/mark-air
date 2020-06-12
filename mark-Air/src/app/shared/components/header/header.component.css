@@ -20,3 +20,27 @@
 
 }
 
+@media (max-width: 600px){
+    .centro{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 86%;
+    
+    }
+    .logo {
+        width: 25%;
+        /* border: 1px solid black; */
+        
+    }
+    .logo img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .navbar {
+        /* border: 1px solid blue; */
+        position: ;
+    }
+
+}
+
