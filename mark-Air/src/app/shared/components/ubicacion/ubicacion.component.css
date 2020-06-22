@@ -1,0 +1,16 @@
+.ubicacion {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+}
+
+.ubicacion h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+}

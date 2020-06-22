@@ -7,6 +7,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { PrincipalComponent } from './components/principal/principal.component';
 import { CategoriaComponent } from './components/categoria/categoria.component';
+import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
+import { ModelosComponent } from './components/modelos/modelos.component';
+import { MarcasComponent } from './components/marcas/marcas.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { CategoriaComponent } from './components/categoria/categoria.component';
     FooterComponent,
     SliderComponent,
     PrincipalComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    UbicacionComponent,
+    ModelosComponent,
+    MarcasComponent
   ],
   imports: [
     CommonModule,
@@ -24,7 +30,10 @@ import { CategoriaComponent } from './components/categoria/categoria.component';
   exports: [
     HeaderComponent,
     FooterComponent,
-    SliderComponent
+    SliderComponent,
+    PrincipalComponent,
+    CategoriaComponent,
+    UbicacionComponent
   ]
 })
 export class SharedModule { }
